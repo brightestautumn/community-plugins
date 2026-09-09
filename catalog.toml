@@ -1487,8 +1487,8 @@ tags = ["bar", "niri", "panel", "service", "system", "utility"]
 [[plugin]]
 id = "felipeartur/ai-usagebar"
 name = "AI Usage"
-version = "2.1.0"
-updated_at = 1788198733
+version = "2.2.1"
+updated_at = 1788916852
 added_at = 1786903781
 author = "felipeartur"
 license = "MIT"
@@ -2273,13 +2273,13 @@ tags = ["audio", "media", "bar", "panel", "shortcut"]
 [[plugin]]
 id = "alitura1/ayet-kosesi"
 name = "Ayet Köşesi"
-version = "1.0.0"
-updated_at = 1788733836
+version = "1.4.0"
+updated_at = 1788815727
 added_at = 1788733836
 author = "alitura1"
 license = "MIT"
 icon = "book"
-description = "Akıl Kuran'dan günlük ayeti masaüstünde gösteren Noctalia eklentisi."
+description = "Akıl Kuran'ın public Günün Ayeti API'sinden günlük ayeti ve seçili meali masaüstünde gösteren Noctalia eklentisi."
 plugin_api = 24
 tags = ["desktop", "time", "utility"]
 
@@ -2308,3 +2308,74 @@ icon = "note"
 description = "Colorful sticky notes and interactive checklists from your bar, with pinning, privacy blur, and portable storage."
 plugin_api = 24
 tags = ["bar", "panel", "service", "privacy", "productivity", "utility"]
+
+[[plugin]]
+id = "h-jangra/region-recorder"
+name = "Region Recorder"
+version = "0.1.0"
+updated_at = 1788786159
+added_at = 1788786159
+author = "h-jangra"
+license = "MIT"
+icon = "crop"
+description = "Minimal region screen recorder for Noctalia."
+plugin_api = 24
+tags = ["recording", "video", "utility", "bar", "shortcut", "service"]
+
+[[plugin.release]]
+plugin_api = 3
+version = "0.1.0"
+updated_at = 1788786159
+rev = "3c34ca17b964f1fcd25b1b0cf964968c31c6a69d"
+
+[[plugin]]
+id = "andrewdems/vpn-manager"
+name = "VPN Manager"
+version = "1.0.0"
+updated_at = 1788789884
+added_at = 1788789884
+author = "andrewdems"
+license = "MIT"
+icon = "shield-lock"
+description = "Connect, disconnect and import NetworkManager VPNs of any protocol, with auto-connect off trusted networks."
+plugin_api = 24
+tags = ["bar", "launcher", "panel", "service", "shortcut", "network", "privacy", "indicator"]
+
+[[plugin]]
+id = "carlocamacho/taildrop"
+name = "Taildrop"
+version = "1.0.0"
+updated_at = 1788804612
+added_at = 1788804612
+author = "carlocamacho"
+license = "MIT"
+icon = "network"
+description = "Pick a device and send a file via Taildrop from a file manager right-click menu."
+plugin_api = 10
+tags = ["utility", "network", "productivity", "panel", "service"]
+
+[[plugin]]
+id = "prponkshe/mango-displays"
+name = "Mango Displays"
+version = "1.2.0"
+updated_at = 1788804999
+added_at = 1788804999
+author = "prponkshe"
+license = "MIT"
+icon = "device-desktop"
+description = "Set resolution, refresh rate and scale per connected monitor, and mirror one onto another."
+plugin_api = 22
+tags = ["bar", "panel", "service", "hardware", "mangowc"]
+
+[[plugin]]
+id = "nilsonlinux/speedtest-meter"
+name = "Speedtest Meter"
+version = "1.3.2"
+updated_at = 1788806018
+added_at = 1788806018
+author = "Nilsonlinux"
+license = "MIT"
+icon = "brand-speedtest"
+description = "Run an internet speed test with a live speedometer and detailed results."
+plugin_api = 18
+tags = ["network", "indicator", "bar", "panel"]

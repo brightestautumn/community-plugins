@@ -101,6 +101,7 @@ body:
         - llamanager
         - lrc
         - lyrics
+        - mango-displays
         - mango_layouts
         - mangowm-keymode
         - mawaqit
@@ -140,6 +141,7 @@ body:
         - pulsar-mouse
         - qrcode
         - quranwidget
+        - region-recorder
         - remmina
         - rss-notifier
         - ruh-vpn
@@ -150,6 +152,7 @@ body:
         - shelly
         - sing-box-status
         - special-workspaces
+        - speedtest-meter
         - spotify
         - spotify-lyrics
         - spotify-media
@@ -160,6 +163,7 @@ body:
         - system-monitor
         - system-updater
         - systempulse
+        - taildrop
         - tailnet
         - tailscale
         - thinkpad-fan
@@ -173,6 +177,7 @@ body:
         - upbeat
         - vidi
         - voxtype
+        - vpn-manager
         - w-engine
         - wallpaper-switcher
         - warp
